@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apibruteforcedemo:
+    image: ${DOCKER_REGISTRY-}api-brute-force-demo
+    build:
+      context: .
+      dockerfile: ApiBruteForceDemo/Dockerfile
